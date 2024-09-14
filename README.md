@@ -10,7 +10,7 @@ void foo();
 int bar(int a, int b);
 ```
 
-I will demostrate how to call these two lib from rust with **static linking** and **dynamic linking**.
+I will demostrate how to call these two functions from rust with **static linking** and **dynamic linking**.
 
 ## 1. Build lib/dll
 
