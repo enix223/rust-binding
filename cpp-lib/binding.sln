@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rust-binding", "rust-binding.vcxproj", "{F7BAE195-F059-485D-99F9-25B738A6DC82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-dylib|x64 = Debug-dylib|x64
+		Debug-dylib|x86 = Debug-dylib|x86
+		Debug-static|x64 = Debug-static|x64
+		Debug-static|x86 = Debug-static|x86
+		Release-dylib|x64 = Release-dylib|x64
+		Release-dylib|x86 = Release-dylib|x86
+		Release-static|x64 = Release-static|x64
+		Release-static|x86 = Release-static|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Debug-dylib|x64.ActiveCfg = Debug-dylib|x64
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Debug-dylib|x64.Build.0 = Debug-dylib|x64
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Debug-dylib|x86.ActiveCfg = Debug-static|Win32
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Debug-dylib|x86.Build.0 = Debug-static|Win32
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Debug-static|x64.ActiveCfg = Debug-static|x64
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Debug-static|x64.Build.0 = Debug-static|x64
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Debug-static|x86.ActiveCfg = Debug-static|Win32
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Debug-static|x86.Build.0 = Debug-static|Win32
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Release-dylib|x64.ActiveCfg = Release-dylib|x64
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Release-dylib|x64.Build.0 = Release-dylib|x64
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Release-dylib|x86.ActiveCfg = Release-static|Win32
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Release-dylib|x86.Build.0 = Release-static|Win32
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Release-static|x64.ActiveCfg = Release-static|x64
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Release-static|x64.Build.0 = Release-static|x64
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Release-static|x86.ActiveCfg = Release-static|Win32
+		{F7BAE195-F059-485D-99F9-25B738A6DC82}.Release-static|x86.Build.0 = Release-static|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEB29297-273C-4A77-9C09-EDF06D1EDF42}
+	EndGlobalSection
+EndGlobal

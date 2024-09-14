@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "rust-dylib/", 
+  "rust-share/",
+  "rust-static/",
+]
