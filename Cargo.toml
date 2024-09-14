@@ -1,6 +1,6 @@
 [workspace]
+resolver = "2"
 members = [
-  "rust-dylib/", 
-  "rust-share/",
+  "rust-dylib/",
   "rust-static/",
 ]

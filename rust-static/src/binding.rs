@@ -1,4 +1,4 @@
-pub mod share {
+pub mod cpplib {
     #[link(name = "binding", kind = "static")]
     extern "C" {
         pub fn foo();

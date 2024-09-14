@@ -5,7 +5,12 @@ fn main() {
     let current_dir = env::current_dir().expect("Failed to get current directory");
 
     // Join the current directory with the relative path
-    let lib_path = current_dir.join("cpp-lib").join("Release-static");
+    let lib_path = current_dir
+        .parent()
+        .unwrap()
+        .join("cpp-lib")
+        .join("x64")
+        .join("Release-static");
 
     // Specify the path to your .lib file's directory
     println!("cargo:rustc-link-search=native={}", lib_path.display());

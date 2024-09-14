@@ -3,13 +3,9 @@
 version = 3
 
 [[package]]
-name = "rust-dylib"
+name = "rust_dylib"
 version = "0.1.0"
 
 [[package]]
-name = "rust-share"
-version = "0.1.0"
-
-[[package]]
-name = "rust-static"
+name = "rust_static"
 version = "0.1.0"
