@@ -15,6 +15,6 @@ fn main() {
     // Specify the path to your .lib file's directory
     println!("cargo:rustc-link-search=native={}", lib_path.display());
 
-    // Specify the name of the .lib file (without the 'lib' prefix and '.lib' extension)
+    // Specify the name of the .lib file (without the 'dll' prefix and '.dll' extension)
     println!("cargo:rustc-link-lib=dylib=binding");
 }
