@@ -12,7 +12,7 @@ fn main() {
         .join("x64")
         .join("Release-dylib");
 
-    // Specify the path to your .lib file's directory
+    // Specify the path to your .dll file's directory
     println!("cargo:rustc-link-search=native={}", lib_path.display());
 
     // Specify the name of the .lib file (without the 'dll' prefix and '.dll' extension)
